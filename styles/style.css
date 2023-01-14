@@ -9,7 +9,7 @@
 .header-container {
     width: 100%;
     max-width: 1907px;
-    height: 1007px;
+    height: 1207px;
     background: rgba(255, 144, 14, 0.1);
 
 
@@ -38,7 +38,7 @@ ul li {
 
 }
 
-/* content area of header */
+/* content area of header---------------------------------------- */
 .header-div-align {
 
     width: 862px;
@@ -91,4 +91,86 @@ ul li {
     padding: 50px 200px;
 
 
+}
+
+/* 
+start main  1 area---------------------------------------- */
+.main-container {}
+
+.main-flex {
+    display: flex;
+    margin: 50px 200px;
+}
+
+.main-grid>img {
+    max-width: 342px;
+    max-height: 342px;
+    width: 100%;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.main-content {
+    width: 537px;
+    height: 304px;
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.main-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+
+
+}
+
+.main-title-div {
+    width: 468px;
+    height: 106px;
+}
+
+.main-title-color-1 {
+    color: #727272;
+
+}
+
+.main-title-color-2 {
+    color: #131313;
+}
+
+.main-title-color-3 {
+    color: #FF900E;
+}
+
+.main-description-div {
+    width: 537px;
+    height: 78px;
+    margin: 20px 0;
+}
+
+.main-dexcription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+
+}
+
+.main-button-div {}
+
+.main-button {
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 1px solid white;
 }
