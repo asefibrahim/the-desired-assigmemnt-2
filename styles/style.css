@@ -1,0 +1,94 @@
+/*-------- standered measurments------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!------------------Starting header area---------- --> */
+.header-container {
+    width: 100%;
+    max-width: 1907px;
+    height: 1007px;
+    background: rgba(255, 144, 14, 0.1);
+
+
+}
+
+.header-main-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 175px 50px 250px;
+
+
+}
+
+.header-secondary-flex {
+    display: flex;
+    gap: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+/* content area of header */
+.header-div-align {
+
+    width: 862px;
+
+    margin: 100px auto 0 auto;
+    text-align: center;
+
+}
+
+.header-title {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+}
+
+
+.header-small-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+
+
+}
+
+.header-button {
+    text-align: center;
+    margin-top: 32px;
+
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.header-img>img {
+
+    width: 100%;
+
+    height: auto;
+    padding: 50px 200px;
+
+
+}
