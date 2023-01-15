@@ -364,3 +364,36 @@ p {
     color: #727272;
     font-size: 24px;
 }
+
+/* sponser section--------------------- */
+
+
+.sponsors-container {
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin: auto;
+}
+
+.sponsors-title {
+    margin-top: 100px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sponsors-description {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 100px;
+
+}
+
+.sponsors-grid>img {
+    margin: auto;
+
+}
