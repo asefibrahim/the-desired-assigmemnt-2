@@ -30,11 +30,13 @@
 
 ul li a {
     text-decoration: none;
+    color: #727272;
 
 }
 
 ul li {
     list-style-type: none;
+
 
 }
 
@@ -397,3 +399,21 @@ p {
     margin: auto;
 
 }
+
+/*  start footer area----------------- */
+
+.footer {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer>h5 {
+    text-align: center;
+    padding-top: 40px;
+    color: #727272;
+}
+
+/* footer end */
